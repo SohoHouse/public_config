@@ -1,0 +1,66 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  RunRailsCops: true
+
+Lint/AmbiguousRegexpLiteral:
+  Exclude:
+    - 'spec/**/*_spec.rb'
+
+Lint/EndAlignment:
+  Enabled: true
+  AlignWith: keyword
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/ClassLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/LineLength:
+  Enabled: false
+
+Metrics/MethodLength:
+  Enabled: false
+
+Metrics/ModuleLength:
+  Enabled: false
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Rails/ActionFilter:
+  Enabled: false
+
+Rails/HasAndBelongsToMany:
+  Enabled: false
+
+Style/AccessorMethodName:
+  Enabled: false
+
+Style/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Style/Documentation:
+  Enabled: false
+
+Style/FirstParameterIndentation:
+  EnforcedStyle: consistent
+
+Style/FileName:
+  Exclude:
+    - 'config/deploy/*'
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
+Style/TrailingComma:
+  EnforcedStyleForMultiline: comma
