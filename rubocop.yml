@@ -3,7 +3,9 @@ AllCops:
   DisplayStyleGuide: true
   RunRailsCops: true
   Exclude:
-    - db/schema.rb
+    - 'db/schema.rb'
+    - 'bin/*'
+    - 'vendor/**/*'
 
 Lint/AmbiguousRegexpLiteral:
   Exclude:
