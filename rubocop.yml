@@ -2,6 +2,8 @@ AllCops:
   DisplayCopNames: true
   DisplayStyleGuide: true
   RunRailsCops: true
+  Exclude:
+    - db/schema.rb
 
 Lint/AmbiguousRegexpLiteral:
   Exclude:
