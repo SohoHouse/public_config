@@ -63,6 +63,3 @@ Style/MultilineBlockChain:
 
 Style/StringLiterals:
   Enabled: false
-
-Style/TrailingComma:
-  EnforcedStyleForMultiline: comma
