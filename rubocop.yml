@@ -66,3 +66,6 @@ Style/StringLiterals:
 
 Style/TrailingComma:
   EnforcedStyleForMultiline: comma
+
+Rails/FindEach:
+  Enabled: false
