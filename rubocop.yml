@@ -6,10 +6,7 @@ AllCops:
     - 'db/schema.rb'
     - 'bin/*'
     - 'vendor/**/*'
-
-Lint/AmbiguousRegexpLiteral:
-  Exclude:
-    - 'spec/**/*_spec.rb'
+    - 'spec/**/*'
 
 Lint/EndAlignment:
   Enabled: true
