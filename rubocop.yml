@@ -12,6 +12,10 @@ Lint/EndAlignment:
   Enabled: true
   AlignWith: keyword
 
+Lint/AssignmentInCondition:
+  Enabled: true
+  AllowSafeAssignment: true
+
 Metrics/AbcSize:
   Enabled: false
 
